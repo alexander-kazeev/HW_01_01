@@ -1,0 +1,7 @@
+package ru.otus.aik.l0111;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Ура! Заработало!");
+    }
+}

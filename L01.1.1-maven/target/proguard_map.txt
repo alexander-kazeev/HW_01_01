@@ -1,0 +1,56 @@
+com.google.common.base.Preconditions -> a.a.a.a.a:
+    void checkArgument(boolean,java.lang.Object) -> a
+    java.lang.Object checkNotNull(java.lang.Object) -> a
+com.google.common.base.Predicate -> a.a.a.a.b:
+    boolean apply$5d527815() -> a
+    boolean test(java.lang.Object) -> test
+com.google.common.collect.BiMap -> a.a.a.b.a:
+    java.util.Set values() -> a
+    java.util.Collection values() -> values
+com.google.common.collect.CollectSpliterators -> a.a.a.b.b:
+    java.util.Spliterator spliteratorImpl(com.google.common.collect.Multiset) -> a
+    java.util.Spliterator lambda$spliteratorImpl$2(com.google.common.collect.Multiset$Entry) -> a
+com.google.common.collect.CollectSpliterators$1FlatMapSpliterator -> a.a.a.b.c:
+    java.util.Spliterator prefix -> a
+    java.util.Spliterator from -> b
+    int characteristics -> c
+    long estimatedSize -> d
+    java.util.function.Function val$function -> e
+    void <init>(java.util.Spliterator,java.util.Spliterator,int,long,java.util.function.Function) -> <init>
+    boolean tryAdvance(java.util.function.Consumer) -> tryAdvance
+    void forEachRemaining(java.util.function.Consumer) -> forEachRemaining
+    java.util.Spliterator trySplit() -> trySplit
+    long estimateSize() -> estimateSize
+    int characteristics() -> characteristics
+    void lambda$forEachRemaining$1(java.util.function.Function,java.util.function.Consumer,java.lang.Object) -> a
+    void lambda$tryAdvance$0(java.util.function.Function,java.lang.Object) -> a
+com.google.common.collect.Multiset -> a.a.a.b.d:
+    int size() -> size
+    java.util.Set entrySet() -> a
+    void forEach(java.util.function.Consumer) -> forEach
+    java.util.Spliterator spliterator() -> spliterator
+    void lambda$forEach$1(java.util.function.Consumer,com.google.common.collect.Multiset$Entry) -> a
+com.google.common.collect.Multiset$Entry -> a.a.a.b.e:
+    java.lang.Object getElement() -> a
+    int getCount() -> b
+com.google.common.util.concurrent.ListenableFuture -> a.a.a.c.a.a:
+com.google.common.util.concurrent.ListenableScheduledFuture -> a.a.a.c.a.b:
+com.google.common.util.concurrent.ListeningExecutorService -> a.a.a.c.a.c:
+    com.google.common.util.concurrent.ListenableFuture submit$2d4c8362() -> a
+    com.google.common.util.concurrent.ListenableFuture submit$761afc7() -> b
+    com.google.common.util.concurrent.ListenableFuture submit$71dba6d5() -> c
+    java.util.concurrent.Future submit(java.lang.Runnable) -> submit
+    java.util.concurrent.Future submit(java.lang.Runnable,java.lang.Object) -> submit
+    java.util.concurrent.Future submit(java.util.concurrent.Callable) -> submit
+com.google.common.util.concurrent.ListeningScheduledExecutorService -> a.a.a.c.a.d:
+    com.google.common.util.concurrent.ListenableScheduledFuture schedule$638d6850() -> d
+    com.google.common.util.concurrent.ListenableScheduledFuture schedule$5c4f46a7() -> e
+    com.google.common.util.concurrent.ListenableScheduledFuture scheduleAtFixedRate$3d1fe72() -> f
+    com.google.common.util.concurrent.ListenableScheduledFuture scheduleWithFixedDelay$3d1fe72() -> g
+    java.util.concurrent.ScheduledFuture scheduleWithFixedDelay(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit) -> scheduleWithFixedDelay
+    java.util.concurrent.ScheduledFuture scheduleAtFixedRate(java.lang.Runnable,long,long,java.util.concurrent.TimeUnit) -> scheduleAtFixedRate
+    java.util.concurrent.ScheduledFuture schedule(java.util.concurrent.Callable,long,java.util.concurrent.TimeUnit) -> schedule
+    java.util.concurrent.ScheduledFuture schedule(java.lang.Runnable,long,java.util.concurrent.TimeUnit) -> schedule
+ru.otus.aik.l0111.Main -> ru.otus.aik.l0111.Main:
+    void <init>() -> <init>
+    void main(java.lang.String[]) -> main

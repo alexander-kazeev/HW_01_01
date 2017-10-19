@@ -1,0 +1,2 @@
+ru.otus.aik.l0111.Main
+ru.otus.aik.l0111.Main: void main(java.lang.String[])
