@@ -1,7 +1,20 @@
-com.google.common.base.Preconditions -> a.a.a.a.a:
+com.google.common.base.Joiner -> a.a.a.a.a:
+    java.lang.String separator -> a
+    com.google.common.base.Joiner on(java.lang.String) -> a
+    void <init>(java.lang.String) -> <init>
+    java.lang.StringBuilder appendTo(java.lang.StringBuilder,java.util.Iterator) -> a
+    java.lang.String join(java.lang.Object,java.lang.Object,java.lang.Object[]) -> a
+    java.lang.CharSequence toString(java.lang.Object) -> b
     void checkArgument(boolean,java.lang.Object) -> a
     java.lang.Object checkNotNull(java.lang.Object) -> a
-com.google.common.base.Predicate -> a.a.a.a.b:
+com.google.common.base.Joiner$3 -> a.a.a.a.b:
+    java.lang.Object[] val$rest -> a
+    java.lang.Object val$first -> b
+    java.lang.Object val$second -> c
+    void <init>(java.lang.Object[],java.lang.Object,java.lang.Object) -> <init>
+    int size() -> size
+    java.lang.Object get(int) -> get
+com.google.common.base.Predicate -> a.a.a.a.c:
     boolean apply$5d527815() -> a
     boolean test(java.lang.Object) -> test
 com.google.common.collect.BiMap -> a.a.a.b.a:
