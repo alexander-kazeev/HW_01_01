@@ -6,7 +6,7 @@ public class AgentMemoryCounter {
     private static Instrumentation instrumentation;
 
     public static void premain(String args, Instrumentation instrumentation) {
-        System.out.println("AgentMemoryCounter");
+        System.out.println("AgentMemoryCounter (Instrumentation) is running");
         AgentMemoryCounter.instrumentation = instrumentation;
     }
 

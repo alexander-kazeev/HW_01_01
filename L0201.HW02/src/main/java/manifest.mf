@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+PreMain-Class: ru.otus.AIK.L0201.HW02.AgentMemoryCounter
+Main-Class: ru.otus.AIK.L0201.HW02.Main
